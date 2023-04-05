@@ -1,10 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+  import HeaderPage from "./views/HeaderPage/HeaderPage.vue"
 </script>
 
 <template>
-
+  <HeaderPage/>
   <RouterView />
 </template>
 
